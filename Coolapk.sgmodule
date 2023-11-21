@@ -1,0 +1,9 @@
+#!name=Coolapk
+#!desc=去广告
+#!system=ios
+[url-rewrite]
+^https?:\/\/v3-be-pack\.pglstatp-toutiao\.com\? url reject-dict # 拒绝请求
+[Script]
+酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList),requires-body=1,max-size=0,script-path=https://github.com/extra-self/ghost/raw/CoolApk/CoolApk_UseForSelf.js,script-update-interval=0
+[MITM]
+hostname=%APPEND% api.coolapk.com
