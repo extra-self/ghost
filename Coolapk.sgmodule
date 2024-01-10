@@ -1,9 +1,13 @@
 #!name=Coolapk
 #!desc=去广告
 #!system=ios
-[url-rewrite]
-^https?:\/\/v\d+-be-pack\.pglstatp-toutiao\.com\/.+ url reject-dict
+[URL Rewrite]
+^https?:\/\/\w\d+-be-pack(-sign)?\.pglstatp-toutiao\.com\/.+ reject-dict
+^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/.+ reject-dict
+^https?:\/\/api-access\.pangolin-sdk-toutiao(-?\w+)?\.com\/.+ reject-dict
+#^https?:\/\/api-access\.pangolin-sdk-toutiao1\.com\/.+ reject-dict
+#^https?:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/.+ reject-dict
 [Script]
 酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList),requires-body=1,max-size=0,script-path=https://github.com/extra-self/ghost/raw/CoolApk/CoolApk_UseForSelf.js,script-update-interval=0
 [MITM]
-hostname=%APPEND% api.coolapk.com
+hostname=%APPEND% api.coolapk.com,*pglstatp-toutiao.com,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com, api-access.pangolin-sdk-toutiao-b.com
