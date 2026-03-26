@@ -1,13 +1,13 @@
 // ==UserScript==
-// @ScriptName        RedditÔöÇ¿[Ä«Óã°æ]
+// @ScriptName        Redditå¢å¼º[å¢¨é±¼ç‰ˆ]
 // @Author            @ddgksf2013
-// @Function          È¥³ıRedditĞÅÏ¢Á÷¹ã¸æ¡¢Ìû×ÓÒ³Ãæ¹ã¸æ¡¢Ìû×ÓTreeAds¡¢ÉçÇøĞÅÏ¢Á÷¹ã¸æ£¬ÁíÈ¥³ıĞÅÏ¢Á÷µÄNSFWÍ¼µÄÕÚÕÖ£¬NSFWµÄÌû×Óµã»÷¿ÉÖ±½Ó²é¿´Í¼£¬Î±×°Premium£¬½âËø»áÔ±Í¼±ê
+// @Function          å»é™¤Redditä¿¡æ¯æµå¹¿å‘Šã€å¸–å­é¡µé¢å¹¿å‘Šã€å¸–å­TreeAdsã€ç¤¾åŒºä¿¡æ¯æµå¹¿å‘Šï¼Œå¦å»é™¤ä¿¡æ¯æµçš„NSFWå›¾çš„é®ç½©ï¼ŒNSFWçš„å¸–å­ç‚¹å‡»å¯ç›´æ¥æŸ¥çœ‹å›¾ï¼Œä¼ªè£…Premiumï¼Œè§£é”ä¼šå‘˜å›¾æ ‡
 // @AddRequest        https://bit.ly/addRequestforAdBlock
-// @WechatID          Ä«ÓãÊÖ¼Ç
+// @WechatID          å¢¨é±¼æ‰‹è®°
 // @TgChannel         https://t.me/ddgksf2021
 // @Contribute        https://t.me/ddgksf2013_bot
-// @UpdateTime        2025-05-30
-// @Attention         ÈçĞèÒıÓÃÇë×¢Ã÷³ö´¦£¬Ğ»Ğ»ºÏ×÷£¡
+// @UpdateTime        2025-05-30-2026-03-26
+// @Attention         å¦‚éœ€å¼•ç”¨è¯·æ³¨æ˜å‡ºå¤„ï¼Œè°¢è°¢åˆä½œï¼
 // @Version           V1.0.4
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/RedditAds.conf
 // ==/UserScript==
