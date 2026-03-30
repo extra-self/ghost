@@ -47,7 +47,7 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 ^https?:\/\/api-cfg\.wtzw\.com\/v1\/operation\/index\?ad_personal_switch reject-dict
 
 [MITM]
-hostname = %APPEND% api-cfg.wtzw.com,xiaoshuo.wtzw.com,sf3-fe-tos.pglstatp-toutiao.com,api-bc.wtzw.com,api-gw.wtzw.com,cdn.wtzw.com
+hostname = %APPEND% api-cfg.wtzw.com,xiaoshuo.wtzw.com,*pglstatp-toutiao.com,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,api-access.pangolin-sdk-toutiao-b.com,api-bc.wtzw.com,api-gw.wtzw.com,cdn.wtzw.com
 #*.wtzw.com
 
 
