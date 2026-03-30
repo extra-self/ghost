@@ -16,6 +16,9 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 [Url Rewrite]
 # 开屏广告
 ^https?:\/\/api-cfg\.wtzw\.com\/v1\/splash\/ reject-dict
+^https?:\/\/\w\d+-be-pack(-sign)?\.pglstatp-toutiao\.com\/.+ reject-dict
+^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/.+ reject-dict
+^https?:\/\/api-access\.pangolin-sdk-toutiao(-?\w+)?\.com\/.+ reject-dict
 # 腾格尔打卡喵喵歌
 ^https?:\/\/api-bc\.wtzw\.com\/api\/v4\/search\/dispose reject-dict
 # 必读榜弹窗
