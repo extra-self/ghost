@@ -23,8 +23,8 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 ^https?:\/\/api-access\.pangolin-sdk-toutiao(-?\w+)?\.com\/.+ reject-dict
 
 #add 001
-^https?:\/\/pgdt\.ugdtimg\.com\/.+
-^https?:\/\/.*myqcloud.com\/.+
+^https?:\/\/pgdt\.ugdtimg\.com\/.+ reject-dict
+^https?:\/\/.*myqcloud.com\/.+ reject-dict
 
 # 腾格尔打卡喵喵歌
 ^https?:\/\/api-bc\.wtzw\.com\/api\/v4\/search\/dispose reject-dict
