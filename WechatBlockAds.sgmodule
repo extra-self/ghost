@@ -25,7 +25,7 @@
 [Rule]
 DOMAIN-SUFFIX,wxs.qq.com,REJECT,extended-matching,pre-matching
 
-[Map Local]
+[URL Rewrite]
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? - reject-200
 
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedsearchword - reject-200
